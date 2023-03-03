@@ -4,8 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 [System.Serializable] // afficher les array dans unity, plus facile a controler
 
-// !!! Ce script ne vient pas de moi, il s'agit du seul script que j'ai pris sur YouTube a cette adresse : https://www.youtube.com/watch?v=pKN8jVnSKyM
-// Le reste du script est original ou prit a droite a gauche sur internet et remodeler a ma maniere, les sources seront dans le document.
+
 
 public class Wave
 {
@@ -57,7 +56,7 @@ public class WaveSpawner : MonoBehaviour
                 }
                 
             }
-            //SpawnNextWave();
+           SpawnNextWave();
         }
         
        
